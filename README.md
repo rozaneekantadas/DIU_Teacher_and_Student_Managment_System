@@ -9,3 +9,9 @@ This a website which is help to manage Student and Teacher information in Dept o
 - MySQL
 
 Live Link: http://diuteacherinitialinfo.infinityfreeapp.com/
+
+For Authority Log In Use this credential:
+Employee ID: 771234567
+Password: admin123
+
+N.B. Please Don't Enter fake data.

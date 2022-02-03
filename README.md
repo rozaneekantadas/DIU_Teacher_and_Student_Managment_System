@@ -4,6 +4,7 @@ This a website which is help to manage Student and Teacher information in Dept o
 ## Tools
 - HTML
 - CSS
+- JavaScript
 - PHP
 - MySQL
 

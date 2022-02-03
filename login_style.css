@@ -1,0 +1,296 @@
+ *{
+	font-family: Gill Sans MT;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div1{
+	padding-top: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+.div2{
+	padding-right: 20px;
+	float: right;
+}
+
+.div3{
+	float: right;
+	padding-right: 50px;
+	min-height: 70px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.active{
+	background-color: #eeeeee;
+	color: #4080ff;
+}
+
+footer{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #8392a5;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.div4{
+	position: relative;
+	overflow: hidden;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.col1{
+	float: left;
+	width: 50%;
+}
+
+.col1 img{
+	float: right;
+	width: 450px;
+	height: 450px;
+}
+
+.col2{
+	float: left;
+	min-width: 50%;
+}
+
+.page{
+	margin-left: 120px;
+	padding: 40px 0 0 20px;
+}
+
+.page h2{
+	margin: 0;
+}
+
+.page h4{
+	color: #8392a5;
+	font-weight: 400;
+	margin: 0;
+}
+
+.studentBtn, .authorityBtn{
+	background-color: #1E88E5;
+	color: white;
+	margin-bottom: 20px;
+	font-size: 15px;
+	min-width: 375px;
+	text-align: center;
+	padding: 8px 16px;
+	border-style: none;
+}
+
+.authorityBtnShift, .studentBtnShift{
+	background-color: white;
+	border-color: #1E88E5;
+	color: #1E88E5;
+	margin-bottom: 20px;
+	font-size: 15px;
+	min-width: 375px;
+	text-align: center;
+	padding: 8px 16px;
+	border-style: solid;
+}
+
+.authorityBtnShift:hover, .studentBtnShift:hover {
+	background-color: #eeeeee;
+}
+
+input{
+	min-width: 350px;
+	padding: 10px;
+	margin-top: 5px;
+	border-color: #8392a5;
+	border-style: solid;
+}
+
+label{
+	color: black;
+}
+
+#containerAuthority{
+	display: none;
+}
+
+#stdAlert, #authAlert{
+	align-items: center;
+	background-color: #ffcccc;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	padding-left: 20px;
+	position: relative;
+	width: 355px;
+	display: none;
+}
+
+input[type=submit]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.middleText{
+	text-align: center; 
+	width: 375px; 
+	margin:0; 
+	padding: 0;
+}
+
+.divider{
+	width: 375px; 
+	float: left;
+}
+
+@media screen and (max-width: 1100px){
+
+	.col1{
+		display: none;
+	}
+
+	.col2{
+		width: 100%;
+	}
+
+	.studentBtn, .authorityBtn{
+		background-color: #1E88E5;
+		color: white;
+		margin-bottom: 20px;
+		font-size: 15px;
+		min-width: 83.5%;
+		text-align: center;
+		padding: 8px 16px;
+		border-style: none;
+	}
+
+	.authorityBtnShift, .studentBtnShift{
+		background-color: white;
+		border-color: #1E88E5;
+		color: #1E88E5;
+		margin-bottom: 20px;
+		font-size: 15px;
+		min-width: 83.5%;
+		text-align: center;
+		padding: 8px 16px;
+		border-style: solid;
+	}
+
+	.authorityBtnShift:hover, .studentBtnShift:hover {
+		background-color: #eeeeee;
+	}
+
+	input{
+		min-width: 80%;
+		padding: 10px;
+		margin-top: 5px;
+		border-color: #8392a5;
+		border-style: solid;
+	}
+
+	.page{
+		margin-left: 0;
+		padding: 40px 0 0 40px;
+	}
+
+	#stdAlert, #authAlert{
+		align-items: center;
+		background-color: #ffcccc;
+		margin-bottom: 15px;
+		border-radius: 4px;
+		padding-left: 20px;
+		position: relative;
+		width: 80%;
+		display: none;
+	}
+
+	.middleText{
+		text-align: center; 
+		width: 83.5%; 
+		margin:0; 
+		padding: 0;
+	}
+
+	.divider{
+		width: 83.5%; 
+		float: left;
+	}
+}
+
+
+@media screen and (max-width: 700px){
+
+	.div3{
+		align-items: center;
+		float: center;
+	}
+
+	ul{
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	overflow: hidden;
+	float: center;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 15px;
+	}
+
+	.div1 img{
+		width: 150px;
+		height: 40px;
+	}
+
+	.div2 img{
+		width: 150px;
+		height: 40px;
+	}
+} 

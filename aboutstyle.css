@@ -1,0 +1,191 @@
+*{
+	font-family: Gill Sans MT;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div1{
+	padding-top: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+.div2{
+	padding-right: 20px;
+	float: right;
+}
+
+.div3{
+	float: right;
+	padding-right: 50px;
+	min-height: 70px;
+	width: 100%;
+	position: relative;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.active{
+	background-color: #eeeeee;
+	color: #4080ff;
+}
+
+.info{
+	width: 100%;
+	margin-top: 60px;
+	padding-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.des{
+	background-color: #358688;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 80%;
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+.des h1, .des h2{
+	color: white;
+}
+
+.des img{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+}
+
+.des p{
+	color: #BFBFBF;
+	font-size: 20px;
+	margin: 1px;
+}
+
+footer{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #8392a5;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#team{
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+
+#mem1{
+	float: left;
+	margin-left: 20px;
+}
+
+#mem2{
+	float: left;
+	margin-left: 170px;
+}
+
+#mem3{
+	float: right;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 700px){
+
+	.div3{
+		align-items: center;
+		float: center;
+	}
+
+	ul{
+		list-style-type: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+		overflow: hidden;
+		float: center;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 15px;
+	}
+
+	.des{
+		background-color: #358688;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 80%;
+		min-height: 100px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.des h1, .des h2{
+		color: white;
+		font-size: 25px;
+	}
+
+	.des p{
+		color: #BFBFBF;
+		font-size: 20px;
+	}
+
+	.div1 img{
+		width: 150px;
+		height: 40px;
+	}
+
+	#team{
+		position: relative;
+		overflow: hidden;
+	}
+
+	.div2 img{
+		width: 150px;
+		height: 40px;
+	}
+}
